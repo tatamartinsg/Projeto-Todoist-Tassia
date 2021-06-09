@@ -1,0 +1,157 @@
+@font-face {
+    font-family:'fonte-baixada' ;
+    src: url('fonts/Aesthetic\ Violet.otf') format('opentype');
+}
+.task-done{
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+    opacity: .4;
+}
+li.li-tarefa{
+    word-wrap: break-word; 
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    /* float:left; */ /*quando colocado, a li fica mais bonita, porem se for escrito uma tarefa muito grande, não cabe o suficiente dentro da li e acaba prejudicando todo o style */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+li.class-li-fixa{
+    cursor: pointer;
+    text-align: right;
+    word-wrap: break-word;
+    font-size: 18px;
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0.05em 0.05em 1em rgb(0, 0, 0);  
+}
+li.class-li-fixa:nth-child(3n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgb(22, 32, 61) 0%,
+      rgb(23, 122, 168) 100%
+    );
+}
+li.class-li-fixa:nth-child(3n + 2) {
+    background: linear-gradient(
+      90deg,
+      rgb(17, 67, 100) 0%,
+      rgb(24, 37, 36) 100%
+
+    );
+}
+
+.botao_remover{
+    background: linear-gradient(135deg, rgb(253, 253, 253) 60%, cyan);
+    font-family: cursive;
+}
+.botao_remover:hover{
+    background: linear-gradient(#e3eeff, rgb(255, 0, 0));
+}
+.botao_editar{
+    background: linear-gradient(135deg, rgb(253, 253, 253) 60%, cyan);
+    display: inline-block;
+ 
+}
+.botao_editar:hover{
+    background: linear-gradient(#ffffff, #10d620);
+    
+}
+h1{
+    
+    color: white;
+    padding-bottom: 20px;
+    text-shadow: 0.05em 0.05em 0.1em black;
+    font-family: 'fonte-baixada', sans-serif
+}
+body{
+    margin: 35px;
+    background-color: rgb(9, 6, 34);
+    
+    
+}
+
+.div-class{
+    
+    background: linear-gradient(135deg, rgb(25, 38, 65) 60%, cyan);
+    text-align: center;
+    
+    border-radius: 10px;
+    padding: 30px;
+    margin:auto;
+    width: 700px;
+    box-shadow: 4px 2px 15px rgb(35, 103, 110);
+}
+.txt-input:hover{
+    background-color: rgb(209, 209, 209);
+    
+}
+.txt-input{
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid rgb(149, 221, 255);
+    box-shadow: 1px 1px 9px rgb(76, 130, 155);
+}
+.txt-input2{
+    color: black;
+    background-color:#ffffff;
+    /* display:inline-flex; */
+    margin-right: 50px; 
+    box-shadow: 3px 2px 5px rgb(0, 0, 0);
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid rgb(149, 221, 255);
+    
+}
+    
+
+.txt-input2:hover{
+    background-color: rgb(209, 209, 209);
+}
+.div-ul{
+    padding: 20px;
+    word-wrap: break-word; 
+}
+
+.button-class2
+{   
+    background: linear-gradient(135deg, rgb(253, 253, 253) 60%, cyan);
+    transition-duration: 0.3s;
+    
+}
+.button-class2:hover{
+    background: linear-gradient(#ffffff, #10d620);
+}
+button{
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: rgb(255, 255, 255); 
+}
+
+.button-class{
+    background-color:#2c92ac80;
+	border-radius:17px;
+	border:2px solid #4b679c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	text-decoration:none;
+    box-shadow: 1px 1px 9px rgb(76, 130, 155);
+}
+.button-class:hover{
+    background-color: rgb(70, 131, 75);
+}
+#li-id{
+    background-color: red;
+}
+
+#ul-id button{
+    padding-left: 7px;
+    margin: 7px;
+    text-align: right;
+}
